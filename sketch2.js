@@ -37,8 +37,8 @@ class Circle extends Shape {
 class Square extends Shape {
     constructor(x, y, size) {
         super(x, y, size);
-        this.vx = random(1, 5)
-        this.vy = random(1, 5)
+        this.vx = random(1, 5);
+        this.vy = random(1, 5);
     }
 
     display(){
